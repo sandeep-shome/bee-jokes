@@ -1,0 +1,22 @@
+[
+  { "code": "en", "language": "English" },
+  { "code": "hi", "language": "Hindi" },
+  { "code": "es", "language": "Spanish" },
+  { "code": "fr", "language": "French" },
+  { "code": "de", "language": "German" },
+  { "code": "it", "language": "Italian" },
+  { "code": "pt", "language": "Portuguese" },
+  { "code": "ru", "language": "Russian" },
+  { "code": "ja", "language": "Japanese" },
+  { "code": "ko", "language": "Korean" },
+  { "code": "bn", "language": "Bengali" },
+  { "code": "ur", "language": "Urdu" },
+  { "code": "zh", "language": "Chinese (Simplified)" },
+  { "code": "ar", "language": "Arabic" },
+  { "code": "ta", "language": "Tamil" },
+  { "code": "te", "language": "Telugu" },
+  { "code": "gu", "language": "Gujarati" },
+  { "code": "ml", "language": "Malayalam" },
+  { "code": "pa", "language": "Punjabi" },
+  { "code": "mr", "language": "Marathi" }
+]

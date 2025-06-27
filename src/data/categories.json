@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Programming",
+    "description": "Jokes for developers, coders, and software engineers."
+  },
+  {
+    "name": "General",
+    "description": "Light-hearted and everyday jokes for everyone."
+  },
+  {
+    "name": "Dad Jokes",
+    "description": "Classic groan-worthy dad jokes and puns."
+  },
+  {
+    "name": "Puns",
+    "description": "Wordplay and clever punchlines that twist language."
+  },
+  {
+    "name": "Science",
+    "description": "Nerdy jokes about physics, chemistry, and biology."
+  },
+  {
+    "name": "Office Life",
+    "description": "Humor about meetings, emails, and coworkers."
+  },
+  {
+    "name": "Animals",
+    "description": "Funny jokes about pets, wildlife, and creatures."
+  },
+  {
+    "name": "Relationships",
+    "description": "Funny takes on dating, marriage, and friendship."
+  },
+  {
+    "name": "School",
+    "description": "Classroom humor and student-life jokes."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "node-jokes",
+  "version": "0.0.1",
+  "description": "Minimal joke library for node js",
+  "license": "MIT",
+  "author": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.js",
+  "scripts": {
+    "format": "npx prettier --write \"src/**/*.{ts,js,json}\"",
+    "format:check": "npx prettier --check \"src/**/*.{ts,js,json}\"",
+    "lint": "npx eslint \"src/**/*.{ts,js,json}\"",
+    "build": "npx tsup"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.0",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "programming-001",
+    "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+    "category": "programming",
+    "langCode": "en",
+    "tags": ["bugs", "dark-mode", "developer"]
+  },
+  {
+    "id": "general-001",
+    "joke": "Why don’t scientists trust atoms? Because they make up everything!",
+    "category": "general",
+    "langCode": "en",
+    "tags": ["science", "pun"]
+  },
+  {
+    "id": "dad-001",
+    "joke": "I'm reading a book on anti-gravity. It's impossible to put down.",
+    "category": "dad",
+    "langCode": "en",
+    "tags": ["anti-gravity", "pun", "dad"]
+  },
+  {
+    "id": "programming-002",
+    "joke": "A SQL query walks into a bar, walks up to two tables and asks: 'Can I join you?'",
+    "category": "programming",
+    "langCode": "en",
+    "tags": ["sql", "database", "join"]
+  },
+  {
+    "id": "general-002",
+    "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "category": "general",
+    "langCode": "en",
+    "tags": ["face", "eyebrows", "pun"]
+  },
+  {
+    "id": "programming-003",
+    "joke": "There are 10 types of people in the world: those who understand binary and those who don’t.",
+    "category": "programming",
+    "langCode": "en",
+    "tags": ["binary", "pun"]
+  },
+  {
+    "id": "general-003",
+    "joke": "Why did the scarecrow win an award? Because he was outstanding in his field.",
+    "category": "general",
+    "langCode": "en",
+    "tags": ["pun", "field", "scarecrow"]
+  },
+  {
+    "id": "dad-002",
+    "joke": "Why couldn't the bicycle stand up by itself? It was two-tired.",
+    "category": "dad",
+    "langCode": "en",
+    "tags": ["bicycle", "pun", "tired"]
+  },
+  {
+    "id": "hi-001",
+    "joke": "कंप्यूटर कभी झूठ नहीं बोलता — बस एरर दिखा देता है।",
+    "category": "programming",
+    "langCode": "hi",
+    "tags": ["computer", "error", "funny"]
+  },
+  {
+    "id": "hi-002",
+    "joke": "डॉक्टर: तुम्हें आराम की ज़रूरत है। मरीज: ठीक है, फिर ऑफिस को कॉल करके बोल दो!",
+    "category": "general",
+    "langCode": "hi",
+    "tags": ["doctor", "office", "funny"]
+  }
+]

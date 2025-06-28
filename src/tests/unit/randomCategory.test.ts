@@ -12,6 +12,18 @@ const ALL_CATEGORIES: Category[] = [
   'animals',
   'relationships',
   'school',
+  'food',
+  'sports',
+  'history',
+  'travel',
+  'medical',
+  'tech',
+  'music',
+  'financial',
+  'popculture',
+  'holiday',
+  'family',
+  'sarcasm',
 ];
 
 describe('provideRandomCategory', () => {

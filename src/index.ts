@@ -31,6 +31,14 @@ export class Joke {
   }
 
   /**
+   * Retrieves all jokes
+   * @returns A list of all available jokes
+   */
+  getAllJokes(): IJoke[] {
+    return jokes;
+  }
+
+  /**
    * Retrieves a single joke based on the specified category and language.
    *
    * @param category - The category of the joke (defaults to `"programming"` if not provided).

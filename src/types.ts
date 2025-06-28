@@ -1,36 +1,68 @@
+export type Lang =
+  | 'en'
+  | 'hi'
+  | 'es'
+  | 'fr'
+  | 'de'
+  | 'it'
+  | 'pt'
+  | 'ru'
+  | 'ja'
+  | 'ko'
+  | 'bn'
+  | 'ur'
+  | 'zh'
+  | 'ar'
+  | 'ta'
+  | 'te'
+  | 'gu'
+  | 'ml'
+  | 'pa'
+  | 'mr';
+
+export type Category =
+  | 'programming'
+  | 'general'
+  | 'knock-knock'
+  | 'dad'
+  | 'dark'
+  | 'pun'
+  | 'spooky'
+  | 'christmas';
+
 export interface IJoke {
   id: string;
   joke: string;
-  category: string;
-  langCode: string;
+  category: Category;
+  langCode: Lang;
   tags: string[];
 }
 
 export type GetJokeByIdProp = string;
 
 export interface IGetJokesProps {
-  category?: string;
-  lang?: string;
+  category?: Category;
+  lang?: Lang;
 }
 
 export interface IGetManyJokesProps {
-  category?: string;
-  lang?: string;
+  category?: Category;
+  lang?: Lang;
   range?: number;
 }
 
 export interface IGetSafeJokesProps {
-  category?: string;
-  lang?: string;
+  category?: Category;
+  lang?: Lang;
   range?: number;
 }
 
 export interface ILanguage {
   code: string;
-  language: string;
+  language: Lang;
 }
 
 export interface ICategory {
-  name: string;
+  name: Category;
   description: string;
 }

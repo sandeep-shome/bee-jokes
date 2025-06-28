@@ -127,3 +127,5 @@ export class Joke {
     return categories;
   }
 }
+
+export * from './types';

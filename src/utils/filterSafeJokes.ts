@@ -45,15 +45,14 @@ const unsafeWords = [
   'nazis',
 ];
 
-const filterSafeJokes = (jokes: IJoke[]) => {
-  const safeJokes = jokes.filter(
+const filterSafeJokes = (jokes: IJoke[]): IJoke[] => {
+  return jokes.filter(
     (joke) =>
       !joke.joke
         .toLocaleLowerCase()
-        .split('')
+        .split(/\s+/) // split by spaces, tabs, etc.
         .some((word) => unsafeWords.includes(word)),
   );
-  return safeJokes;
 };
 
 export default filterSafeJokes;

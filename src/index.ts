@@ -6,15 +6,20 @@ import {
   IGetSafeJokesProps,
   IJoke,
   ILanguage,
+  Lang,
 } from './types';
-import jokes from './data/jokes.json';
-import langcodes from './data/langcode.json';
-import categories from './data/categories.json';
+import jokesJson from './data/jokes.json';
+import langCodesJson from './data/langcode.json';
+import categoriesJson from './data/categories.json';
 import filterSafeJokes from './utils/filterSafeJokes';
+
+const jokes: IJoke[] = jokesJson as IJoke[];
+const langs: ILanguage[] = langCodesJson as ILanguage[];
+const categories: ICategory[] = categoriesJson as ICategory[];
 
 export class Joke {
   getJokeById(id: GetJokeByIdProp): null | IJoke {
-    const filtered = jokes.filter((joke) => joke.id === id);
+    const filtered: IJoke[] = jokes.filter((joke) => joke.id === id);
     return filtered.length > 0 ? filtered[0] : null;
   }
 
@@ -37,7 +42,7 @@ export class Joke {
     return filtered.length > 0 ? filtered.slice(0, range) : null;
   }
 
-  getRandomJoke(lang: string = 'en'): IJoke | null {
+  getRandomJoke(lang: Lang = 'en'): IJoke | null {
     const filtered = jokes.filter((joke) => joke.langCode === lang);
     return filtered.length > 0 ? filtered[0] : null;
   }
@@ -53,7 +58,7 @@ export class Joke {
   }
 
   getLanguages(): ILanguage[] {
-    return langcodes;
+    return langs;
   }
 
   getCategories(): ICategory[] {

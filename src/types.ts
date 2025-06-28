@@ -39,20 +39,20 @@ export interface IJoke {
   tags: string[];
 }
 
-export type GetJokeByIdProp = string;
+export type GetJokeByIdParam = string;
 
-export interface IGetJokesProps {
+export interface IGetJokesParams {
   category?: Category;
   lang?: Lang;
 }
 
-export interface IGetManyJokesProps {
+export interface IGetManyJokesParams {
   category?: Category;
   lang?: Lang;
   range?: number;
 }
 
-export interface IGetSafeJokesProps {
+export interface IGetSafeJokesParams {
   category?: Category;
   lang?: Lang;
   range?: number;

@@ -47,7 +47,7 @@ export class Joke {
    */
   getJoke({ category = provideRandomCategory(), lang = 'en' }: IGetJokesParams): IJoke | null {
     const filtered = jokes.filter((joke) => joke.category === category && joke.langCode === lang);
-    return filtered.length > 0 ? filtered[0] : null;
+    return filtered.length > 0 ? filtered[Math.floor(Math.random() * filtered.length)] : null;
   }
 
   /**

@@ -7,66 +7,535 @@
     "tags": ["bugs", "dark-mode", "developer"]
   },
   {
-    "id": "general-001",
-    "joke": "Why don’t scientists trust atoms? Because they make up everything!",
-    "category": "general",
-    "langCode": "en",
-    "tags": ["science", "pun"]
-  },
-  {
-    "id": "dad-001",
-    "joke": "I'm reading a book on anti-gravity. It's impossible to put down.",
-    "category": "dad",
-    "langCode": "en",
-    "tags": ["anti-gravity", "pun", "dad"]
-  },
-  {
     "id": "programming-002",
-    "joke": "A SQL query walks into a bar, walks up to two tables and asks: 'Can I join you?'",
+    "joke": "Why do programmers always mix up Halloween and Christmas? Because Oct 31 == Dec 25!",
     "category": "programming",
     "langCode": "en",
-    "tags": ["sql", "database", "join"]
-  },
-  {
-    "id": "general-002",
-    "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
-    "category": "general",
-    "langCode": "en",
-    "tags": ["face", "eyebrows", "pun"]
+    "tags": ["dates", "binary", "developer"]
   },
   {
     "id": "programming-003",
-    "joke": "There are 10 types of people in the world: those who understand binary and those who don’t.",
+    "joke": "There are 10 types of people in this world. Those who understand binary, and those who don't.",
     "category": "programming",
     "langCode": "en",
-    "tags": ["binary", "pun"]
+    "tags": ["binary", "logic", "developer"]
+  },
+  {
+    "id": "programming-004",
+    "joke": "Pourquoi les programmeurs aiment-ils le noir ? Parce que le noir, c'est comme le code, on ne voit rien !",
+    "category": "programming",
+    "langCode": "fr",
+    "tags": ["code", "dark-mode", "developer"]
+  },
+  {
+    "id": "general-001",
+    "joke": "Why don't scientists trust atoms? Because they make up everything!",
+    "category": "general",
+    "langCode": "en",
+    "tags": ["science", "pun", "chemistry"]
+  },
+  {
+    "id": "general-002",
+    "joke": "¿Qué le dice un semáforo a otro semáforo? No me mires que te pongo verde.",
+    "category": "general",
+    "langCode": "es",
+    "tags": ["traffic", "pun"]
   },
   {
     "id": "general-003",
-    "joke": "Why did the scarecrow win an award? Because he was outstanding in his field.",
+    "joke": "टीचर: होमवर्क क्यों नहीं किया? छात्र: मैम, लाइट नहीं थी। टीचर: तो मोमबत्ती जला लेते। छात्र: मैम, माचिस नहीं थी। टीचर: तो माचिस खरीद लेते। छात्र: मैम, पैसे नहीं थे। टीचर: तो पैसे कमा लेते। छात्र: मैम, यही तो होमवर्क में था!",
     "category": "general",
-    "langCode": "en",
-    "tags": ["pun", "field", "scarecrow"]
+    "langCode": "hi",
+    "tags": ["school", "homework", "student"]
   },
   {
-    "id": "dad-002",
-    "joke": "Why couldn't the bicycle stand up by itself? It was two-tired.",
-    "category": "dad",
+    "id": "dadjokes-001",
+    "joke": "I'm reading a book on anti-gravity. It's impossible to put down!",
+    "category": "dadjokes",
+    "langCode": "en",
+    "tags": ["physics", "pun", "book"]
+  },
+  {
+    "id": "dadjokes-002",
+    "joke": "¿Qué hace una abeja en el gimnasio? ¡Zumba!",
+    "category": "dadjokes",
+    "langCode": "es",
+    "tags": ["animals", "pun", "gym"]
+  },
+  {
+    "id": "puns-001",
+    "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "category": "puns",
+    "langCode": "en",
+    "tags": ["looks", "surprise"]
+  },
+  {
+    "id": "puns-002",
+    "joke": "Qu'est-ce qu'un chat qui tombe dans un pot de peinture le jour de Noël ? Un chat-peint de Noël !",
+    "category": "puns",
+    "langCode": "fr",
+    "tags": ["animals", "christmas", "pun"]
+  },
+  {
+    "id": "science-001",
+    "joke": "What did the atom say to the electron? Don't be negative!",
+    "category": "science",
+    "langCode": "en",
+    "tags": ["physics", "chemistry", "pun"]
+  },
+  {
+    "id": "science-002",
+    "joke": "¿Qué le dijo un protón a otro protón? ¡Hoy estoy positivo!",
+    "category": "science",
+    "langCode": "es",
+    "tags": ["physics", "chemistry", "positive"]
+  },
+  {
+    "id": "officelife-001",
+    "joke": "My boss told me to have a good day. So I went home.",
+    "category": "officelife",
+    "langCode": "en",
+    "tags": ["boss", "work", "day-off"]
+  },
+  {
+    "id": "animals-001",
+    "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "category": "animals",
+    "langCode": "en",
+    "tags": ["farm", "pun", "award"]
+  },
+  {
+    "id": "animals-002",
+    "joke": "Que dit un escargot quand il croise une limace ? « Tiens, t'as oublié ta maison ! »",
+    "category": "animals",
+    "langCode": "fr",
+    "tags": ["snail", "slug", "pun"]
+  },
+  {
+    "id": "relationships-001",
+    "joke": "I asked my girlfriend to tell me something that would get my heart racing. She said, 'I forgot my wallet.'",
+    "category": "relationships",
+    "langCode": "en",
+    "tags": ["girlfriend", "money", "wallet"]
+  },
+  {
+    "id": "school-001",
+    "joke": "Why did the math book look sad? Because it had too many problems.",
+    "category": "school",
+    "langCode": "en",
+    "tags": ["math", "book", "problems"]
+  },
+  {
+    "id": "school-002",
+    "joke": "टीचर: 15 फलों के नाम बताओ। छात्र: एक दर्जन केले और तीन सेब।",
+    "category": "school",
+    "langCode": "hi",
+    "tags": ["fruits", "math", "student"]
+  },
+  {
+    "id": "food-001",
+    "joke": "Why did the tomato turn red? Because it saw the salad dressing!",
+    "category": "food",
+    "langCode": "en",
+    "tags": ["vegetables", "salad", "pun"]
+  },
+  {
+    "id": "food-002",
+    "joke": "¿Qué hace un mudo en un gallinero? ¡Huevos de chocolate!",
+    "category": "food",
+    "langCode": "es",
+    "tags": ["chocolate", "chicken", "pun"]
+  },
+  {
+    "id": "sports-001",
+    "joke": "Why did the football coach go to the bank? To get his quarter back.",
+    "category": "sports",
+    "langCode": "en",
+    "tags": ["football", "bank", "pun"]
+  },
+  {
+    "id": "history-001",
+    "joke": "Why did the Roman Empire fall? Because it couldn't stand being conquered by the barbarians!",
+    "category": "history",
+    "langCode": "en",
+    "tags": ["rome", "empire", "fall"]
+  },
+  {
+    "id": "travel-001",
+    "joke": "I used to be a travel agent, but I gave it up. It was just too much baggage.",
+    "category": "travel",
+    "langCode": "en",
+    "tags": ["agent", "luggage", "pun"]
+  },
+  {
+    "id": "medical-001",
+    "joke": "What's a doctor's favorite kind of music? Anything with a good beat.",
+    "category": "medical",
+    "langCode": "en",
+    "tags": ["doctor", "music", "pun"]
+  },
+  {
+    "id": "tech-001",
+    "joke": "Why was the mobile phone wearing glasses? Because it lost its contacts.",
+    "category": "tech",
+    "langCode": "en",
+    "tags": ["phone", "glasses", "contacts"]
+  },
+  {
+    "id": "music-001",
+    "joke": "Why did the music teacher need a ladder? To reach the high notes.",
+    "category": "music",
+    "langCode": "en",
+    "tags": ["teacher", "notes", "instrument"]
+  },
+  {
+    "id": "financial-001",
+    "joke": "Why did the accountant break up with the calculator? Because he just couldn't count on her.",
+    "category": "financial",
+    "langCode": "en",
+    "tags": ["accountant", "calculator", "breakup"]
+  },
+  {
+    "id": "popculture-001",
+    "joke": "Why did the superhero get invited to all the parties? Because he was a Marvel!",
+    "category": "popculture",
+    "langCode": "en",
+    "tags": ["superhero", "marvel", "party"]
+  },
+  {
+    "id": "holiday-001",
+    "joke": "Why did Santa get a parking ticket on Christmas Eve? He left his sleigh in a snow parking zone!",
+    "category": "holiday",
+    "langCode": "en",
+    "tags": ["christmas", "santa", "parking"]
+  },
+  {
+    "id": "family-001",
+    "joke": "My family is so annoying. We're like a tangled ball of yarn, always getting on each other's nerves.",
+    "category": "family",
+    "langCode": "en",
+    "tags": ["parents", "siblings", "relationships"]
+  },
+  {
+    "id": "sarcasm-001",
+    "joke": "I'm so good at sleeping, I can do it with my eyes closed.",
+    "category": "sarcasm",
+    "langCode": "en",
+    "tags": ["sleep", "obvious", "humor"]
+  },
+  {
+    "id": "programming-007",
+    "joke": "Why did the developer go broke? Because he used up all his cache.",
+    "category": "programming",
+    "langCode": "en",
+    "tags": ["money", "cache", "developer"]
+  },
+  {
+    "id": "programming-008",
+    "joke": "What's a programmer's favorite bug? A feature.",
+    "category": "programming",
+    "langCode": "en",
+    "tags": ["bugs", "feature", "humor"]
+  },
+  {
+    "id": "programming-009",
+    "joke": "Pourquoi les développeurs n'aiment-ils pas la nature ? Trop de feuilles sans documentation.",
+    "category": "programming",
+    "langCode": "fr",
+    "tags": ["documentation", "nature", "developer"]
+  },
+  {
+    "id": "programming-010",
+    "joke": "What's the best thing about booleans? Even if you're wrong, you're only off by a bit.",
+    "category": "programming",
+    "langCode": "en",
+    "tags": ["boolean", "bit", "logic"]
+  },
+  {
+    "id": "general-006",
+    "joke": "Why did the bicycle fall over? Because it was two-tired.",
+    "category": "general",
     "langCode": "en",
     "tags": ["bicycle", "pun", "tired"]
   },
   {
-    "id": "hi-001",
-    "joke": "कंप्यूटर कभी झूठ नहीं बोलता — बस एरर दिखा देता है।",
-    "category": "programming",
-    "langCode": "hi",
-    "tags": ["computer", "error", "funny"]
+    "id": "general-007",
+    "joke": "¿Cuál es el colmo de un jardinero? Que deje a su mujer plantada.",
+    "category": "general",
+    "langCode": "es",
+    "tags": ["gardener", "pun", "relationships"]
   },
   {
-    "id": "hi-002",
-    "joke": "डॉक्टर: तुम्हें आराम की ज़रूरत है। मरीज: ठीक है, फिर ऑफिस को कॉल करके बोल दो!",
+    "id": "general-008",
+    "joke": "मेरे दोस्त ने मुझसे कहा कि वह एक दिन में 1000 पुश-अप्स कर सकता है। मैंने पूछा, 'कैसे?' उसने कहा, 'धीरे-धीरे।'",
     "category": "general",
     "langCode": "hi",
-    "tags": ["doctor", "office", "funny"]
+    "tags": ["friend", "exercise", "humor"]
+  },
+  {
+    "id": "dadjokes-005",
+    "joke": "I invented a new word: plagiarism.",
+    "category": "dadjokes",
+    "langCode": "en",
+    "tags": ["wordplay", "irony"]
+  },
+  {
+    "id": "dadjokes-006",
+    "joke": "¿Qué le dice un guepardo a otro guepardo? 'Estás hecho una bala.'",
+    "category": "dadjokes",
+    "langCode": "es",
+    "tags": ["animals", "speed", "pun"]
+  },
+  {
+    "id": "puns-005",
+    "joke": "I used to be a baker, but I kneaded dough so much I got tired.",
+    "category": "puns",
+    "langCode": "en",
+    "tags": ["baker", "food", "tired"]
+  },
+  {
+    "id": "puns-006",
+    "joke": "Pourquoi les poissons vivent-ils dans l'eau salée ? Parce que l'eau poivrée les ferait éternuer !",
+    "category": "puns",
+    "langCode": "fr",
+    "tags": ["fish", "food", "water"]
+  },
+  {
+    "id": "science-003",
+    "joke": "What did the biologist wear to his first date? Designer genes.",
+    "category": "science",
+    "langCode": "en",
+    "tags": ["biology", "genes", "date"]
+  },
+  {
+    "id": "science-004",
+    "joke": "¿Por qué el 6 tenía miedo del 7? Porque el 7, 8, 9.",
+    "category": "science",
+    "langCode": "es",
+    "tags": ["numbers", "pun", "math"]
+  },
+  {
+    "id": "officelife-002",
+    "joke": "My job is secure. No one else wants it.",
+    "category": "officelife",
+    "langCode": "en",
+    "tags": ["work", "job", "sarcasm"]
+  },
+  {
+    "id": "officelife-003",
+    "joke": "I told my boss I needed a raise. He said, 'Why don't you stand on a chair?'",
+    "category": "officelife",
+    "langCode": "en",
+    "tags": ["boss", "raise", "humor"]
+  },
+  {
+    "id": "animals-003",
+    "joke": "What do you call a sleeping bull? A bulldozer.",
+    "category": "animals",
+    "langCode": "en",
+    "tags": ["farm", "animals", "pun"]
+  },
+  {
+    "id": "animals-004",
+    "joke": "Pourquoi les canards n'ont-ils jamais faim ? Parce qu'ils ont toujours la patate !",
+    "category": "animals",
+    "langCode": "fr",
+    "tags": ["duck", "food", "pun"]
+  },
+  {
+    "id": "relationships-002",
+    "joke": "My wife and I have a great relationship. We never go to bed angry. We just stay up and fight.",
+    "category": "relationships",
+    "langCode": "en",
+    "tags": ["marriage", "wife", "fighting"]
+  },
+  {
+    "id": "relationships-003",
+    "joke": "Dating is like a job interview, except you're both lying and you both know it.",
+    "category": "relationships",
+    "langCode": "en",
+    "tags": ["dating", "interview", "truth"]
+  },
+  {
+    "id": "school-003",
+    "joke": "Why did the student eat his homework? Because the teacher told him it was a piece of cake.",
+    "category": "school",
+    "langCode": "en",
+    "tags": ["homework", "student", "teacher"]
+  },
+  {
+    "id": "school-004",
+    "joke": "गणित के अध्यापक ने छात्र से पूछा, 'अगर तुम्हारे पास 5 सेब हैं और मैं तुम्हें 5 और देता हूँ, तो तुम्हारे पास कितने होंगे?' छात्र: '10।' अध्यापक: 'बहुत अच्छे! अब बताओ, अगर तुम्हारे पास 5 केले हैं और मैं तुम्हें 5 और देता हूँ, तो तुम्हारे पास कितने होंगे?' छात्र: 'कुछ नहीं, क्योंकि केले तो मेरे पास थे ही नहीं।'",
+    "category": "school",
+    "langCode": "hi",
+    "tags": ["math", "student", "logic"]
+  },
+  {
+    "id": "food-003",
+    "joke": "What do you call a sad strawberry? A blueberry.",
+    "category": "food",
+    "langCode": "en",
+    "tags": ["fruit", "pun", "sad"]
+  },
+  {
+    "id": "food-004",
+    "joke": "¿Qué le dijo una taza a otra taza? '¿Qué taza haciendo?'",
+    "category": "food",
+    "langCode": "es",
+    "tags": ["utensil", "pun", "tea"]
+  },
+  {
+    "id": "sports-002",
+    "joke": "Why was the tennis match so loud? Because both players had a racket!",
+    "category": "sports",
+    "langCode": "en",
+    "tags": ["tennis", "racket", "loud"]
+  },
+  {
+    "id": "sports-003",
+    "joke": "What do you call a boomerang that won't come back? A stick.",
+    "category": "sports",
+    "langCode": "en",
+    "tags": ["boomerang", "stick", "funny"]
+  },
+  {
+    "id": "history-002",
+    "joke": "Why did the historian break up with the archaeologist? They had too many old issues.",
+    "category": "history",
+    "langCode": "en",
+    "tags": ["history", "archaeology", "relationships"]
+  },
+  {
+    "id": "history-003",
+    "joke": "What do you call a sleeping dinosaur? Dino-snore!",
+    "category": "history",
+    "langCode": "en",
+    "tags": ["dinosaur", "pun", "sleep"]
+  },
+  {
+    "id": "travel-002",
+    "joke": "I'm on a seafood diet. I see food, and I eat it. Especially when I travel!",
+    "category": "travel",
+    "langCode": "en",
+    "tags": ["diet", "food", "vacation"]
+  },
+  {
+    "id": "travel-003",
+    "joke": "What do you call a grumpy traveler? A grum-pillion.",
+    "category": "travel",
+    "langCode": "en",
+    "tags": ["traveler", "grumpy", "pun"]
+  },
+  {
+    "id": "medical-002",
+    "joke": "Why did the patient bring a ladder to the doctor's office? Because he heard he had high blood pressure.",
+    "category": "medical",
+    "langCode": "en",
+    "tags": ["doctor", "patient", "blood-pressure"]
+  },
+  {
+    "id": "medical-003",
+    "joke": "What do you call a fake doctor? A 'phoney' physician.",
+    "category": "medical",
+    "langCode": "en",
+    "tags": ["doctor", "fake", "pun"]
+  },
+  {
+    "id": "tech-002",
+    "joke": "Why did the computer go to the doctor? It had a virus!",
+    "category": "tech",
+    "langCode": "en",
+    "tags": ["computer", "virus", "sick"]
+  },
+  {
+    "id": "tech-003",
+    "joke": "I told my computer I needed a break, and it just kept buffering.",
+    "category": "tech",
+    "langCode": "en",
+    "tags": ["computer", "break", "buffering"]
+  },
+  {
+    "id": "music-002",
+    "joke": "What do you call a musically talented insect? A bee-thoven.",
+    "category": "music",
+    "langCode": "en",
+    "tags": ["insect", "composer", "pun"]
+  },
+  {
+    "id": "music-003",
+    "joke": "Why did the guitar get sent to jail? For fretting too much.",
+    "category": "music",
+    "langCode": "en",
+    "tags": ["guitar", "jail", "pun"]
+  },
+  {
+    "id": "financial-002",
+    "joke": "Why did the stock market break up with the economy? It just wasn't feeling stable.",
+    "category": "financial",
+    "langCode": "en",
+    "tags": ["stock-market", "economy", "breakup"]
+  },
+  {
+    "id": "financial-003",
+    "joke": "I just inherited a fortune from my late uncle. He died in a bank robbery. He was the teller.",
+    "category": "financial",
+    "langCode": "en",
+    "tags": ["money", "bank", "dark-humor"]
+  },
+  {
+    "id": "popculture-002",
+    "joke": "Why did the superhero cross the road? To get to the other Marvel side.",
+    "category": "popculture",
+    "langCode": "en",
+    "tags": ["superhero", "marvel", "road"]
+  },
+  {
+    "id": "popculture-003",
+    "joke": "What do you call a fake famous person? A 'cele-fakey.'",
+    "category": "popculture",
+    "langCode": "en",
+    "tags": ["celebrity", "fake", "pun"]
+  },
+  {
+    "id": "holiday-002",
+    "joke": "What do you call Santa's little helpers? Subordinate Clauses.",
+    "category": "holiday",
+    "langCode": "en",
+    "tags": ["christmas", "santa", "elves"]
+  },
+  {
+    "id": "holiday-003",
+    "joke": "Why did the ghost go to the bar on Halloween? For the boos.",
+    "category": "holiday",
+    "langCode": "en",
+    "tags": ["halloween", "ghost", "bar"]
+  },
+  {
+    "id": "family-002",
+    "joke": "My family reunion was like a jigsaw puzzle. Everyone tried to fit in, but some pieces were just missing.",
+    "category": "family",
+    "langCode": "en",
+    "tags": ["reunion", "jigsaw-puzzle", "relationships"]
+  },
+  {
+    "id": "family-003",
+    "joke": "My kids are like a permanent record player. They keep spinning the same old complaints.",
+    "category": "family",
+    "langCode": "en",
+    "tags": ["kids", "parents", "complaints"]
+  },
+  {
+    "id": "sarcasm-002",
+    "joke": "I love group projects. Said no one ever.",
+    "category": "sarcasm",
+    "langCode": "en",
+    "tags": ["school", "work", "projects"]
+  },
+  {
+    "id": "sarcasm-003",
+    "joke": "I'm not saying I'm lazy, but I wear a Fitbit just to track my naps.",
+    "category": "sarcasm",
+    "langCode": "en",
+    "tags": ["lazy", "fitbit", "naps"]
   }
 ]

@@ -11,7 +11,8 @@
     "format": "npx prettier --write \"src/**/*.{ts,js,json}\"",
     "format:check": "npx prettier --check \"src/**/*.{ts,js,json}\"",
     "lint": "npx eslint \"src/**/*.{ts,js,json}\"",
-    "build": "npx tsup"
+    "build": "rimraf dist && npx tsup",
+    "test": "npx vitest"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",

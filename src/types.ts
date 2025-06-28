@@ -23,12 +23,13 @@ export type Lang =
 export type Category =
   | 'programming'
   | 'general'
-  | 'knock-knock'
-  | 'dad'
-  | 'dark'
-  | 'pun'
-  | 'spooky'
-  | 'christmas';
+  | 'dadjokes'
+  | 'puns'
+  | 'science'
+  | 'officelife'
+  | 'animals'
+  | 'relationships'
+  | 'school';
 
 export interface IJoke {
   id: string;

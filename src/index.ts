@@ -12,6 +12,7 @@ import jokesJson from './data/jokes.json';
 import langCodesJson from './data/langcode.json';
 import categoriesJson from './data/categories.json';
 import filterSafeJokes from './utils/filterSafeJokes';
+import { provideRandomCategory } from './utils/randomCategoryProvider';
 
 const jokes: IJoke[] = jokesJson as IJoke[];
 const langs: ILanguage[] = langCodesJson as ILanguage[];
@@ -36,7 +37,7 @@ export class Joke {
    * @param lang - The language code for the joke (defaults to `"en"` if not provided).
    * @returns A matching joke object if found, otherwise `null`.
    */
-  getJoke({ category = 'programming', lang = 'en' }: IGetJokesProps): IJoke | null {
+  getJoke({ category = provideRandomCategory(), lang = 'en' }: IGetJokesProps): IJoke | null {
     const filtered = jokes.filter((joke) => joke.category === category && joke.langCode === lang);
     return filtered.length > 0 ? filtered[0] : null;
   }
@@ -50,7 +51,7 @@ export class Joke {
    * @returns An array of jokes matching the filters, limited by the given range, or `null` if no jokes are found.
    */
   getManyJokes({
-    category = 'programming',
+    category = provideRandomCategory(),
     lang = 'en',
     range = 10,
   }: IGetManyJokesProps): IJoke[] | null {
@@ -91,7 +92,7 @@ export class Joke {
    * @returns An array of safe jokes limited by the given range, or `null` if no safe jokes are found.
    */
   getSafeJokes({
-    category = 'programming',
+    category = provideRandomCategory(),
     lang = 'en',
     range = 10,
   }: IGetSafeJokesProps): IJoke[] | null {

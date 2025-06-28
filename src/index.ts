@@ -1,9 +1,9 @@
 import {
-  GetJokeByIdProp,
+  GetJokeByIdParam,
   ICategory,
-  IGetJokesProps,
-  IGetManyJokesProps,
-  IGetSafeJokesProps,
+  IGetJokesParams,
+  IGetManyJokesParams,
+  IGetSafeJokesParams,
   IJoke,
   ILanguage,
   Lang,
@@ -25,7 +25,7 @@ export class Joke {
    * @param id - The ID of the joke to retrieve.
    * @returns The matching joke object if found, otherwise `null`.
    */
-  getJokeById(id: GetJokeByIdProp): null | IJoke {
+  getJokeById(id: GetJokeByIdParam): null | IJoke {
     const filtered: IJoke[] = jokes.filter((joke) => joke.id === id);
     return filtered.length > 0 ? filtered[0] : null;
   }
@@ -45,7 +45,7 @@ export class Joke {
    * @param lang - The language code for the joke (defaults to `"en"` if not provided).
    * @returns A matching joke object if found, otherwise `null`.
    */
-  getJoke({ category = provideRandomCategory(), lang = 'en' }: IGetJokesProps): IJoke | null {
+  getJoke({ category = provideRandomCategory(), lang = 'en' }: IGetJokesParams): IJoke | null {
     const filtered = jokes.filter((joke) => joke.category === category && joke.langCode === lang);
     return filtered.length > 0 ? filtered[0] : null;
   }
@@ -62,7 +62,7 @@ export class Joke {
     category = provideRandomCategory(),
     lang = 'en',
     range = 10,
-  }: IGetManyJokesProps): IJoke[] | null {
+  }: IGetManyJokesParams): IJoke[] | null {
     const filtered = jokes.filter((joke) => joke.category === category && joke.langCode === lang);
     return filtered.length > 0 ? filtered.slice(0, range) : null;
   }
@@ -103,7 +103,7 @@ export class Joke {
     category = provideRandomCategory(),
     lang = 'en',
     range = 10,
-  }: IGetSafeJokesProps): IJoke[] | null {
+  }: IGetSafeJokesParams): IJoke[] | null {
     const filtered = jokes.filter((joke) => joke.category === category && joke.langCode === lang);
     const safeJokes = filterSafeJokes(filtered);
     return safeJokes.length > 0 ? safeJokes.slice(0, range) : null;

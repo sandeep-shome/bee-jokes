@@ -34,5 +34,53 @@
   {
     "name": "school",
     "description": "Classroom humor and student-life jokes."
+  },
+  {
+    "name": "food",
+    "description": "Jokes about cooking, eating, and all things culinary."
+  },
+  {
+    "name": "sports",
+    "description": "Humor related to athletes, games, and competitions."
+  },
+  {
+    "name": "history",
+    "description": "Witty jokes and puns based on historical events and figures."
+  },
+  {
+    "name": "travel",
+    "description": "Jokes about vacations, airlines, and exploring new places."
+  },
+  {
+    "name": "medical",
+    "description": "Humor from the world of doctors, nurses, and hospitals."
+  },
+  {
+    "name": "tech",
+    "description": "Jokes about gadgets, the internet, and modern technology (beyond just programming)."
+  },
+  {
+    "name": "music",
+    "description": "Funny observations and puns about musicians, instruments, and songs."
+  },
+  {
+    "name": "financial",
+    "description": "Jokes about money, banking, and economics."
+  },
+  {
+    "name": "popculture",
+    "description": "Humor referencing movies, TV shows, celebrities, and trends."
+  },
+  {
+    "name": "holiday",
+    "description": "Themed jokes for various holidays like Christmas, Halloween, etc."
+  },
+  {
+    "name": "family",
+    "description": "Jokes about parents, children, siblings, and extended family."
+  },
+  {
+    "name": "sarcasm",
+    "description": "Witty and often ironic humor, sometimes with a dry delivery."
   }
 ]

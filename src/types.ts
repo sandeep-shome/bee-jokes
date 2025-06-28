@@ -29,7 +29,19 @@ export type Category =
   | 'officelife'
   | 'animals'
   | 'relationships'
-  | 'school';
+  | 'school'
+  | 'food'
+  | 'sports'
+  | 'history'
+  | 'travel'
+  | 'medical'
+  | 'tech'
+  | 'music'
+  | 'financial'
+  | 'popculture'
+  | 'holiday'
+  | 'family'
+  | 'sarcasm';
 
 export interface IJoke {
   id: string;

@@ -323,6 +323,48 @@ console.log(categories);
 
 **Returns:** `ICategory[] | null` — An array of category objects, each containing the category name..
 
+## 🤝 Contribution
+
+Contributions are welcome and appreciated!
+If you have suggestions for improvements, feel free to open an issue or submit a pull request.
+Let’s make bee-jokes better together! 🐝✨
+
+## 🚀 Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/sandeep-shome/bee-jokes.git
+```
+
+Go to the project directory
+
+```bash
+cd my-project
+```
+
+🔧 Install dependencies
+
+```bash
+npm install
+```
+
+_You can now explore and modify the package as per your needs._
+
+📦 Build the Project
+
+```bash
+npm run build
+```
+
+## 🧪 Running Tests
+
+To run tests, run the following command
+
+```bash
+npm run test
+```
+
 ## 🧩 Features
 
 - Minimal setup
@@ -355,6 +397,12 @@ Feel free to check out the GitHub repository and join in making this project bet
 ## 📄 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## 🔗 Related
+
+Here are some related projects
+
+[pyjokes](https://github.com/pyjokes/pyjokes.git)
 
 ## 🙋‍♂️ Support
 

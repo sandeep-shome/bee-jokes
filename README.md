@@ -1,4 +1,4 @@
-![Logo](./docs/assets/logo.png)
+![Logo](./assets/logo.png)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 

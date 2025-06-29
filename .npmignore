@@ -1,18 +1,15 @@
-# modules
-
-/node_modules
+# Exclude source files and dev directories
 /src
+/node_modules
 /.husky
 /docs
 
-# development configs
-
+# Exclude development/config files
 .prettierignore
 .prettierrc.json
 .eslint.config.mjs
 tsconfig.json
 tsup.config.ts
 
-# docs
-
+# Exclude documentation not needed in the package
 CONTRIBUTING.md

@@ -1,9 +1,20 @@
 {
-  "name": "node-jokes",
-  "version": "0.0.1",
+  "name": "bee-jokes",
+  "version": "1.0.0",
   "description": "Minimal joke library for node js",
   "license": "MIT",
-  "author": "",
+  "author": "Sandeep Shome",
+  "keywords": [
+    "bee jokes",
+    "jokes",
+    "joke generator",
+    "funny",
+    "humor",
+    "random",
+    "bee",
+    "laugh",
+    "open source"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.js",

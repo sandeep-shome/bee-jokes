@@ -1,3 +1,9 @@
+## [1.0.2] - 2025-06-28
+
+### Added
+
+- Fix the npm publish script
+
 ## [1.0.1] - 2025-06-28
 
 ### Added

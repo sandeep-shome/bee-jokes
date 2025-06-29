@@ -29,7 +29,8 @@
     "lint": "npx eslint \"src/**/*.{ts,js,json}\"",
     "build": "rimraf dist && npx tsup",
     "test": "npx vitest",
-    "prepare": "husky"
+    "prepare": "husky",
+    "publish": "npm run build && npm publish --access public"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",

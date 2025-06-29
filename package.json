@@ -23,6 +23,13 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.js"
+    }
+  },
   "scripts": {
     "format": "npx prettier --write \"src/**/*.{ts,js,json}\"",
     "format:check": "npx prettier --check \"src/**/*.{ts,js,json}\"",

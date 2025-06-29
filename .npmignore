@@ -7,7 +7,7 @@
 # Exclude development/config files
 .prettierignore
 .prettierrc.json
-.eslint.config.mjs
+eslint.config.mjs
 tsconfig.json
 tsup.config.ts
 

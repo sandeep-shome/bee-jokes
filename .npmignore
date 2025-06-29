@@ -11,5 +11,8 @@ eslint.config.mjs
 tsconfig.json
 tsup.config.ts
 
+# npm package archives
+*.tgz
+
 # Exclude documentation not needed in the package
 CONTRIBUTING.md

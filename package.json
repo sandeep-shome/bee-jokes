@@ -1,6 +1,6 @@
 {
   "name": "bee-jokes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bee-jokes is a lightweight TypeScript/JavaScript package that delivers clean, categorized, and multilingual jokes — fast and ready to sting your apps with humor!",
   "license": "MIT",
   "author": "Sandeep Shome",
